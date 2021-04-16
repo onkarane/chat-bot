@@ -1,44 +1,66 @@
-{"intents": [
-        {"tag": "greeting",
-         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
-         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
-         "context_set": ""
-        },
-        {"tag": "goodbye",
-         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day"],
-         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
-         "context_set": ""
-        },
-        {"tag": "age",
-         "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
-         "responses": ["I am 24 years old!", "24 years young!"],
-         "context_set": ""
-        },
-        {"tag": "name",
-         "patterns": ["what is your name", "what should I call you", "whats your name?"],
-         "responses": ["You can call me Onkar.", "I'm Onkar!"],
-         "context_set": ""
-        },
-        {"tag": "education",
-         "patterns": ["what do you study", "what is masters in", "tell me about your graduate degree", "education", "education details"],
-         "responses": ["I am a graduate student majoring in Computer Information Systems from Colorado State University"],
-         "context_set": ""
-        },
-        {"tag": "gpa",
-         "patterns": ["tell me your gpa", "what is your gpa", "how much is your gpa", "what is your masters gpa", "cpga", "current gpa", "current cpga"],
-         "responses": ["CGPA : 3.56 / 4 as of three semesters!"],
-         "context_set": ""
-        },
-        {"tag": "certifications",
-         "patterns": ["tell me about your certifications", "what are you certified in", "certification details", "certification"],
-         "responses": ["I have Tableau Desktop Specialist certification along with Business Intelligence, Business Application Development. Please visit education section to know more!"],
-         "context_set": ""
-        },
-        {"tag": "skills",
-         "patterns": ["what are your skills", "tell me your skills", "describe your skilss"],
-         "responses": ["I have sound knowledege of Python and several OOP langagues such as Java, C#. I also have good graps of visualization tools such as Tabelau, PowerBi and Cloud Computing"],
-         "context_set": ""
-        }
+{
+        "intents": [
+                        {
+                                "tag": "greeting",
+                                "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+                                "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+                                "context_set": ""
+                        },
+                        {       
+                                "tag": "goodbye",
+                                "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "quit "],
+                                "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"],
+                                "context_set": ""
+                        },
+                        {
+                                "tag": "age",
+                                "patterns": ["how old", "how old is tim", "what is your age", "how old are you", "age?"],
+                                "responses": ["I am 24 years old!", "24 years young!"],
+                                "context_set": ""
+                        },
+                        {
+                                "tag": "name",
+                                "patterns": ["what is your name", "what should I call you", "whats your name?"],
+                                "responses": ["You can call me Onkar.", "I'm Onkar!"],
+                                "context_set": ""
+                        },
+                        {
+                                "tag": "education",
+                                "patterns": ["what do you study", "what is masters in", "tell me about your graduate degree", "education", "education details"],
+                                "responses": ["I am a graduate student majoring in Computer Information Systems at Colorado State University"],
+                                "context_set": ""
+                        },
+                        {
+                                "tag": "gpa",
+                                "patterns": ["tell me your gpa", "what is your gpa", "how much is your gpa", "what is your masters gpa", "cpga", "current gpa", "current cpga"],
+                                "responses": ["CGPA : 3.56 / 4 as of three semesters!"],
+                                "context_set": ""
+                        },
+                        {
+                                "tag": "certifications",
+                                "patterns": ["tell me about your certifications", "what are you certified in", "certification details", "certification"],
+                                "responses": ["I have Business Intelligence, Business Application Development certification from Colorado State University. Currently I am working on Tableau Desktop Specialist Certification."],
+                                "context_set": ""
+                        },
+                        {       "tag": "skills",
+                                "patterns": ["what are your skills", "tell me your skills", "describe your skills", "technical skills"],
+                                "responses": ["I have sound knowledge of databases, software engineering practices, cloud service integration and deployment, APIs, statistics, with proven experience in requirement gathering"],
+                                "context_set": ""
+                        },
+                        {
+                                "tag": "work",
+                                "patterns": ["tell me your work experience", "technical experience", "work experience", "work ex", "what is your work experience", "how much work experience do you have"],
+                                "responses": ["I am Graduate Assistant at CSU since Jan 2021. Before that I was Business Analyst Intern at FynTune Solutions, India. Please refer my resume for further details."],
+                                "context_set": ""
+                                
+                        },
+                        {
+                                "tag": "projects",
+                                "patterns": ["projects", "what projects did you work on", "what are your projects", "tell me about your projects", "project details"],
+                                "responses": ["Please refer 'My work' section of the website for in-depth details OR you can visit my github : https://github.com/onkarane"],
+                                "context_set": ""
 
-   ]
+                        }
+
+        ]
 }
