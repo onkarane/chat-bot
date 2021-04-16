@@ -1,2 +1,2 @@
-model_checkpoint_path: "/Users/onkar/dev/github/chat_bot_gcp/model/model.tflearn"
-all_model_checkpoint_paths: "/Users/onkar/dev/github/chat_bot_gcp/model/model.tflearn"
+model_checkpoint_path: "/Users/onkar/dev/github/chat_bot/model/model.tflearn"
+all_model_checkpoint_paths: "/Users/onkar/dev/github/chat_bot/model/model.tflearn"
